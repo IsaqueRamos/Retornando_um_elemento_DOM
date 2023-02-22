@@ -1,0 +1,66 @@
+<html lang="pt-br">
+  <head>
+  
+  <link href="projeto1.css" rel="stylesheet">
+   
+   
+  <title></title>
+  
+  </head>
+  <body>
+  
+  
+  
+         
+    <script>   
+   
+          function coresVariadas(){
+          var opcao = document.getElementById("cores")
+          opcao.style.background = "#0000CD	"
+          opcao.innerHTML = "A cor mudou para Azul!"
+          
+          
+          
+         
+          }
+          
+          function font(){
+          var alt = document.getElementById("letras")
+          alt.style.fontSize = "50px"
+          
+          
+          
+          }
+          
+          function trocar(){
+          var troca = document.getElementById("mudar")
+          troca.innerHTML = "Esse texto mudou!"
+          
+          
+          
+          }
+          
+          
+     </script>
+          
+        
+           <div id="cores">Alterando a cor!</div>
+           <br>
+           <button onclick="coresVariadas()">Clique aqui</button>
+           
+           
+           
+           <br><hr>
+           <div id="letras">Clique abaixo e veja o tamanho da fonte mudar.</div>
+           <br>
+           <button onclick="font()">Clique aqui</button>
+           
+           <br><hr>
+           <div id="mudar">Clique abaixo e veja o texto mudar.</div>
+           <br>
+           <button onclick="trocar()">Clique aqui</button>
+        
+         
+         
+  </body>
+</html>

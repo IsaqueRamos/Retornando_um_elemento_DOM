@@ -1,0 +1,63 @@
+#cores{
+
+
+background: #696969	;
+padding-bottom: 5%;
+font-size: 50px;
+border-width: medium;
+  border-style: ridge;
+  border-color: black;
+  text-align: center;
+ font-family: "COURIER", 'Verdana';
+  
+  
+  
+
+}
+
+
+#letras{
+
+padding-bottom: 5%;
+border-width: medium;
+border-style: ridge;
+border-color: black;
+background: #696969;
+text-align: center;
+font-family: "COURIER", 'Verdana';
+
+}
+
+ 
+
+
+#mudar{
+
+
+padding-bottom: 6%;
+font-size: 50px;
+border-width: medium;
+border-style: ridge;
+border-color: black;
+background: #696969;	
+text-align: center;
+font-family: "COURIER", 'Verdana';
+
+
+
+}
+
+
+button{
+
+text-align: center;
+
+}
+
+
+body{
+
+background: #1C1C1C	
+
+
+}
